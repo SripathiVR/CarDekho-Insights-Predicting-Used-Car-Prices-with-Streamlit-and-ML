@@ -34,34 +34,34 @@ To run the notebook and Streamlit application, ensure you have the following ins
 - **Python 3.7+**
 - Required Python libraries: `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `streamlit`
 
-## Using the Streamlit Application
+ Using the Streamlit Application
 - Input Fields: The application allows users to input various car attributes such as make, model, year, fuel type, transmission type, mileage, and more.
 - Price Prediction: After entering the details, click the 'Predict' button to get the estimated price of the car.
 - User-Friendly Interface: The interface is designed to be intuitive, making it easy for both tech-savvy and non-technical users to interact with the model.
 
-##Model Training and Evaluation
+Model Training and Evaluation
 - Data Cleaning: The dataset undergoes rigorous cleaning to handle missing values, encode categorical features, and scale numerical features appropriately.
 - Model Selection: Several models were trained and evaluated, including Linear Regression, Decision Trees, Random Forest, and Gradient Boosting. Hyperparameter tuning was performed to optimize model performance.
 - Evaluation Metrics: The models were evaluated based on Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared (R²) values. These metrics helped in comparing model performance and selecting the best model for deployment.
 
-##Results
+Results
 - Best Model: The model with the highest R² score and lowest MSE and MAE was selected for the final deployment.
 - Accuracy: The deployed model demonstrated strong predictive accuracy, making it reliable for practical use in estimating car prices.
 
-##Repository Structure
+Repository Structure
 - car_dekho_cleaning_and_modeling.ipynb: The notebook containing data processing, model training, and evaluation.
 - car_dekho_app.py: The Streamlit application script.
 - project_report.pdf: The comprehensive project report.
 - user_guide.pdf: A detailed user guide for the Streamlit application.
 - Car_Price_Prediction.zip: A ZIP file containing the cleaned dataset, joblib files, and other supporting resources.
 
-##Acknowledgements
+Acknowledgements
 - This project was built using data from CarDekho and relies on several open-source libraries, including Scikit-learn for machine learning and Streamlit for web application deployment.
 
-##License
+License
 - This project is licensed under the MIT License.
 
-##References
+References
 - CarDekho
 - Scikit-learn Documentation
 - Streamlit Documentation
